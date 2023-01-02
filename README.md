@@ -1,4 +1,4 @@
-# nftlanding
+# NavBar
 ![NavBAr](https://user-images.githubusercontent.com/66314810/210269634-64f6dd52-44af-4d53-aa7e-fc277cad334a.png)
 
 ## Project setup
