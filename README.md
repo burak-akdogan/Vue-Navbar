@@ -1,5 +1,6 @@
 # NavBar
-![image](https://user-images.githubusercontent.com/66314810/210620402-913e6b53-75a9-4e7f-aaeb-8fc06cf0ac82.png)
+![Navbar and Hero](https://user-images.githubusercontent.com/66314810/210621730-1627f2d9-c102-4285-b947-ef29b4049a92.gif)
+
 
 
 ## Project setup
