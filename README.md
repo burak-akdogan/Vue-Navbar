@@ -1,5 +1,6 @@
 # NavBar
-![NavBAr](https://user-images.githubusercontent.com/66314810/210269634-64f6dd52-44af-4d53-aa7e-fc277cad334a.png)
+![image](https://user-images.githubusercontent.com/66314810/210620402-913e6b53-75a9-4e7f-aaeb-8fc06cf0ac82.png)
+
 
 ## Project setup
 ```
