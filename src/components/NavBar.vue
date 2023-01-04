@@ -2,7 +2,7 @@
 <div id="header">
 <div class="container">
 <nav>
-<img src="../assets/mylogo.png" class="logo"/>
+<img src="../assets/fs.svg" class="logo"/>
 <ul>
 <li><a href="#">Home</a></li>
 <li><a href="#">About</a></li>
@@ -11,9 +11,16 @@
 </ul>
  </nav>
              <div class="header-text">
-             <p>Hello <span>World</span></p>
-             <h1>Lorem  dolor <br> consectetur adipisicing elit. </h1>
-            </div>   
+             <!-- <p>Hello <span>World</span></p> -->
+             <h1 class="shine">FUTURE SHOCK</h1>
+            </div>  
+         
+<div class="social-hero">      
+<img src="../assets/discord.svg">
+<img src="../assets/github.svg">
+<img src="../assets/instagram.svg">
+</div> 
+       
 </div> 
 </div>
 </template>
@@ -22,8 +29,6 @@ export default {
     name:'NavBar'
 
 }
-
-
 </script>
 <style lang="scss">
 @import './vars.scss';
@@ -31,22 +36,32 @@ export default {
 #header{
     width: 100%;
     height: 100vh;
-    /* background-image: url(../assets/header.png); */
     background-size:cover;
     background-position:center;
  }
+ .social-hero{
+   text-align: center;
+   margin-top: 5%;
+   padding-left: 20px;
+   justify-content: space-between;
+}
  .container{
 padding: 10px 10%;
  }
- nav{
+nav{
     display: flex;
     align-items: center;
     justify-content:space-between;
     flex-wrap: wrap;
-    padding-right: 15%;
+    padding-right: 45%;
  }
  .logo{
     width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin-left: 20%;
  }
  nav ul li{
     display: inline-block;
@@ -75,12 +90,16 @@ padding: 10px 10%;
     width: 100%;
  }
  .header-text{
-    margin-top: 10%;
+    margin-top: 5%;
     font-size: 20px;
  }
 .header-text h1{
-    font-size: 40px;
-    margin-top: 20px;
+    font-size: 205px;
+    width: 1513px;
+    font-weight: 800;
+    font-family: HudsonNYPro,sans-serif;
+    text-align: center;
+    line-height: 80%;
 }
 .header-text p span{
     color: #ff004f;
@@ -89,6 +108,23 @@ padding: 10px 10%;
    width: 500px;
    margin-left: 900px;
    margin-top: -20%;
+}
+
+/*shine h1 */
+h1.shine:hover {
+  mask-image: linear-gradient(-75deg, rgba(218, 215, 215, 0.6) 30%, #000 50%, rgba(255, 255, 255, 0.6) 70%);
+  mask-size: 200%;
+  animation: shine 1s infinite;
+}
+
+@keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
 }
 
 </style>
