@@ -92,6 +92,12 @@ nav{
  .header-text{
     margin-top: 5%;
     font-size: 20px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
  }
 .header-text h1{
     font-size: 205px;
